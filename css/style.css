@@ -10,7 +10,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
 }
-.wrapper {
+.wrapper,
+.contact-section{
     width: 100vw;
     height: 100vh;
     background-color: #191c32;
@@ -36,7 +37,7 @@ body {
     list-style: none;
 }
 .menu a {
-    color:#fff;
+    color: #fff;
     text-decoration: none;
     padding: 10px 20px;
 }
@@ -44,6 +45,10 @@ body {
 .menu a:hover {
     background-color: aqua;
     color: #191c32
+}
+
+.toggle-menu {
+    display: none;
 }
 
 .main{
@@ -55,11 +60,11 @@ body {
     align-items: center;
 }
 .h1 {
-    font-size: 3em;
+    font-size:  clamp(4vw, 1.5em, 3em);
 }
 
 .main img {
-    width: 350px;
+    width: 552px;
     height: 520px;
 }
 
@@ -78,4 +83,71 @@ body {
 .about-info {
     grid-column: 5/10;
     padding: 2em;
+    padding: 3em;
+}
+.about-info h2 {
+    font-size: 2em;
+    color: #191c32;
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 10px  
+}
+
+.about p {
+    margin-bottom: 1em;
+}
+
+.container-contact {
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.contact-headings h2 {
+    font-size: 3em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.form textarea {
+  height: 150px;
+  background: none;
+  color:#fff;
+  padding: 1.5em;
+  border: 1px solid #fff;
+}
+
+.btn-submit{
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
 }
