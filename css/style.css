@@ -14,7 +14,7 @@ body {
 .contact-section{
     width: 100vw;
     height: 100vh;
-    background-color: #191c32;
+    background-color: #00BFFF;
     color: #fff;
 }
 
@@ -47,9 +47,6 @@ body {
     color: #191c32
 }
 
-.toggle-menu {
-    display: none;
-}
 
 .main{
     margin: 0 auto;
@@ -151,3 +148,6 @@ body {
     width: 100vw;
     height: 100px;
 }
+
+
+
